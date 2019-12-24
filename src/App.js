@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   addTodo(todo) {
-    this.setState({ todos: [...todos, todo]});
+    this.setState({ todos: [...this.state.todos, todo]});
   }
   removeTodo(index) {
     if (window.confirm("Are you sure?")) {

@@ -22,6 +22,7 @@ class TodoForm extends Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.onAddTodo(this.state);
+    document.querySelector(".todo-form").reset();
   }
 
   render() {
