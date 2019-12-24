@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './TodoForm.css';
 class TodoForm extends Component {
   constructor() {
     super();
@@ -14,7 +14,6 @@ class TodoForm extends Component {
   }
 
   handleInput(e) {
-    console.log('writing..');
     const value = e.target.value;
     const name = e.target.name;
     this.setState({ [name]: value });
@@ -27,7 +26,10 @@ class TodoForm extends Component {
 
   render() {
     return (
-      <form className="w-25 mx-auto" onSubmit={this.handleSubmit}>
+      <form className="todo-form" onSubmit={this.handleSubmit}>
+        <h2 className="text-white">
+          New Task
+        </h2>
         <input 
           type="text" 
           className="form-control" 
@@ -40,12 +42,18 @@ class TodoForm extends Component {
           name="responsible" 
           onChange={this.handleInput}
           placeholder="Responsible"/>
-        <input 
-          type="textArea" 
+        <textarea 
+          rows="3"
           className="form-control" 
           name="description" 
           onChange={this.handleInput}
-          placeholder="Description"/>
+          placeholder="Description">
+        </textarea>
+        <select className="custom-select">
+          <option value="Low">Low</option>
+          <option value="Normal">Normal</option>
+          <option value="High">High</option>
+        </select>
         <button type="submit" className="btn btn-primary">Save Task</button>
       </form>
     );
