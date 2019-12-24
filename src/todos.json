@@ -2,27 +2,27 @@
   "todos": [
     {
       "title": "Task 1",
-      "responsible": "Person 1",
+      "responsible": "Anthony",
       "description": "Description 1",
-      "priority": "Normal"
+      "priority": "Low"
     },
     {
       "title": "Task 2",
-      "responsible": "Person 2",
+      "responsible": "Mark",
       "description": "Description 2",
       "priority": "Normal"
     },
     {
       "title": "Task 3",
-      "responsible": "Person 3",
+      "responsible": "Maria",
       "description": "Description 3",
       "priority": "Normal"
     },
     {
       "title": "Task 4",
-      "responsible": "Person 4",
+      "responsible": "Luis",
       "description": "Description 4",
-      "priority": "Normal"
+      "priority": "High"
     }
   ]
 }
