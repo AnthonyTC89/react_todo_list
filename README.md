@@ -7,9 +7,9 @@
     <br>
     <a href="https://develop.d1ss6tgj7pmiqj.amplifyapp.com" target="_blank">Live Demo</a>
     .
-    <a href="https://github.com/AnthonyTC89/react-todo-list/issues">Report Bug</a>
+    <a href="https://github.com/AnthonyTC89/react_todo_list/issues">Report Bug</a>
     ·
-    <a href="https://github.com/AnthonyTC89/react-todo-list/issues">Request Feature</a>
+    <a href="https://github.com/AnthonyTC89/react_todo_list/issues">Request Feature</a>
   </p>
   <br>
 </p>
@@ -47,7 +47,7 @@ The goal of the project is learn about the State of the FrameWork React.
 
 ### Installation
 
-  1. Clone the repository [react-todo-list](https://github.com/AnthonyTC89/react-todo-list)
+  1. Clone the repository [react_todo_list](https://github.com/AnthonyTC89/react_todo_list)
   2. Go to the folder app and run `npm install`
   3. Run `npm start`
 
