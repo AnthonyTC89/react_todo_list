@@ -2,7 +2,7 @@
   <h1 align="center">TO DO LIST</h1>
 
   <p align="center">
-    Project Create with HTML CSS JAVASCRIPT on REACT FRAMEWORK.
+    Project Create with HTML CSS JAVASCRIPT on REACT FRAMEWORK. Deployed on AWS Amplify.
     <br>
     <br>
     <a href="https://develop.d1ss6tgj7pmiqj.amplifyapp.com" target="_blank">Live Demo</a>
@@ -43,6 +43,7 @@ The goal of the project is learn about the State of the FrameWork React.
 * [Bootstrap](https://getbootstrap.com/)
 * [JavaScript](https://www.javascript.com/)
 * [React](https://reactjs.org/)
+* [AWS Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html)
 
 ### Installation
 
